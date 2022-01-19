@@ -1,0 +1,36 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.top{
+    background-color: blue;
+    display: flex;
+    width: 100%;
+    padding: 1%;
+}
+
+.top .logo{
+    color: white;
+    font-weight: bold;
+}
+
+.top .nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.top .nav li{
+    display: flex;
+}
+
+.top .intro{
+    display: flex;
+}
